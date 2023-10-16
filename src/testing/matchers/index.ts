@@ -1,3 +1,5 @@
+/// <reference path="./index.d.ts" />
+
 import { expect } from "@jest/globals";
 import { toMatchDocument } from "./toMatchDocument.js";
 import { toHaveSuspenseCacheEntryUsing } from "./toHaveSuspenseCacheEntryUsing.js";
